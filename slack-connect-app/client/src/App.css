@@ -1,0 +1,131 @@
+.app-container {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 25px;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.send-btn, .schedule-btn, .connect-btn {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn {
+  background: #28a745;
+  color: white;
+}
+.send-btn:hover {
+  background: #218838;
+}
+
+.schedule-btn {
+  background: #ffc107;
+  color: black;
+}
+.schedule-btn:hover {
+  background: #e0a800;
+}
+
+.connect-btn {
+  background: #4A154B;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+}
+.connect-btn:hover {
+  background: #6d1e6d;
+}
+
+.timer {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.scheduled-heading {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.scheduled-list {
+  list-style: none;
+  padding: 0;
+}
+
+.scheduled-item {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scheduled-item.urgent {
+  background: rgba(255, 0, 0, 0.4);
+}
+
+.countdown {
+  font-size: 14px;
+  color: yellow;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.delete-btn:hover {
+  color: red;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
