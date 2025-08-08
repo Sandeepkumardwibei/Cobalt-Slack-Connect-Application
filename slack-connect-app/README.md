@@ -37,8 +37,8 @@ npm start
 - Add redirect URI: `http://localhost:3001/auth/slack/callback`
 - Use these credentials in your `.env` file
 
-## Deployment
-You can deploy the frontend using Netlify or Vercel, and the backend using Render or Heroku.
+
 
 ## Author
-Internship Assignment for Refold
+Internship Assignment for COBALT.AI
+
